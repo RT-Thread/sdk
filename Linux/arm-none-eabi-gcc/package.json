@@ -19,19 +19,19 @@
     "doc": "unknown",
     "site": [
         {
-            "version": "v10.2.1",
-            "URL": "https://gitee.com/RT-Thread-Studio-Mirror/sdk-toolchain-GNU-ARM-Embedded/repository/archive/10.2.1",
-            "filename": "arm-none-eabi-gcc-10.2.1.tar.xz"
+            "version": "v10.3",
+            "URL": "https://developer.arm.com/-/media/Files/downloads/gnu-rm/10.3-2021.07/gcc-arm-none-eabi-10.3-2021.07-x86_64-linux.tar.bz2",
+            "filename": "gcc-arm-none-eabi-10.3-2021.07-x86_64-linux.tar.bz2"
         },
         {
-            "version": "v12.2.1",
-            "URL": "https://developer.arm.com/-/media/Files/downloads/gnu/12.2.rel1/binrel/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi.tar.xz",
-            "filename": "arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi.tar.xz"
+            "version": "v13.2.rel1",
+            "URL": "https://developer.arm.com/-/media/Files/downloads/gnu/13.2.rel1/binrel/arm-gnu-toolchain-13.2.rel1-x86_64-arm-none-eabi.tar.xz",
+            "filename": "arm-gnu-toolchain-13.2.rel1-x86_64-arm-none-eabi.tar.xz"
         },
         {
-            "version": "v12.2.1_aarch64",
-            "URL": "https://developer.arm.com/-/media/Files/downloads/gnu/12.2.rel1/binrel/arm-gnu-toolchain-12.2.rel1-aarch64-arm-none-eabi.tar.xz",
-            "filename": "arm-gnu-toolchain-12.2.rel1-aarch64-arm-none-eabi.tar.xz"
+            "version": "v13.2.rel1_aarch64",
+            "URL": "https://developer.arm.com/-/media/Files/downloads/gnu/13.2.rel1/binrel/arm-gnu-toolchain-13.2.rel1-aarch64-arm-none-eabi.tar.xz",
+            "filename": "arm-gnu-toolchain-13.2.rel1-aarch64-arm-none-eabi.tar.xz"
         }
     ]
 }

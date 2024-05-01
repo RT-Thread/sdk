@@ -1,1 +1,2 @@
 source "$PKGS_DIR/sdk/$HOSTOS/arm-none-eabi-gcc/Kconfig"
+source "$PKGS_DIR/sdk/$HOSTOS/aarch64-none-elf-gcc/Kconfig"
