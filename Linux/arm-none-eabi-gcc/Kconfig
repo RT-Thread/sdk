@@ -14,21 +14,21 @@ if PKG_USING_ARM_NONE_EABI_GCC
         help
             Select the package version
 
-        config PKG_USING_ARM_NONE_EABI_GCC_V120201
-            bool "v12.2.1"
+        config PKG_USING_ARM_NONE_EABI_GCC_V132REL1
+            bool "v13.2.rel1"
 
-        config PKG_USING_ARM_NONE_EABI_GCC_AARCH64_V120201
-            bool "v12.2.1 on aarch64 host"
+        config PKG_USING_ARM_NONE_EABI_GCC_AARCH64_V132REL1
+            bool "v13.2.rel1 on aarch64 host"
 
-        config PKG_USING_ARM_NONE_EABI_GCC_V1021
-            bool "v10.2.1"
+        config PKG_USING_ARM_NONE_EABI_GCC_V103
+            bool "v10.3"
 
     endchoice
 
     config PKG_ARM_NONE_EABI_GCC_VER
        string
-       default "v12.2.1" if PKG_USING_ARM_NONE_EABI_GCC_V120201
-       default "v12.2.1_aarch64" if PKG_USING_ARM_NONE_EABI_GCC_AARCH64_V120201
-       default "v10.2.1"   if PKG_USING_ARM_NONE_EABI_GCC_V1021
+       default "v13.2.rel1" if PKG_USING_ARM_NONE_EABI_GCC_V132REL1
+       default "v13.2.rel1_aarch64" if PKG_USING_ARM_NONE_EABI_GCC_AARCH64_V132REL1
+       default "v10.3"      if PKG_USING_ARM_NONE_EABI_GCC_V103
 
 endif

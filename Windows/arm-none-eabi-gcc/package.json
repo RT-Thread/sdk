@@ -19,14 +19,14 @@
     "doc": "unknown",
     "site": [
         {
-            "version": "v12.2.1",
-            "URL": "https://developer.arm.com/-/media/Files/downloads/gnu/12.2.rel1/binrel/arm-gnu-toolchain-12.2.rel1-mingw-w64-i686-arm-none-eabi.zip",
-            "filename": "arm-gnu-toolchain-12.2.rel1-mingw-w64-i686-arm-none-eabi.zip"
+            "version": "v13.2.rel1",
+            "URL": "https://developer.arm.com/-/media/Files/downloads/gnu/13.2.rel1/binrel/arm-gnu-toolchain-13.2.rel1-mingw-w64-i686-arm-none-eabi.zip",
+            "filename": "arm-gnu-toolchain-13.2.rel1-mingw-w64-i686-arm-none-eabi.zip"
         },
         {
-            "version": "v10.2.1",
-            "URL": "https://gitee.com/RT-Thread-Studio-Mirror/sdk-toolchain-GNU-ARM-Embedded/repository/archive/10.2.1",
-            "filename": "arm-none-eabi-gcc-10.2.1.zip"
+            "version": "v10.3",
+            "URL": "https://developer.arm.com/-/media/Files/downloads/gnu-rm/10.3-2021.07/gcc-arm-none-eabi-10.3-2021.07-win32.zip",
+            "filename": "gcc-arm-none-eabi-10.3-2021.07-win32.zip"
         }
     ]
 }
