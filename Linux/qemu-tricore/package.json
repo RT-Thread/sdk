@@ -24,7 +24,7 @@
             "version": "v1.0.0",
             "URL": "https://github.com/RT-Thread/toolchains-ci/releases/download/v1.13/qemu-tricore-1.0.0-linux-x86_64.tar.xz",
             "filename": "qemu-tricore-1.0.0-linux-x86_64.tar.xz",
-            "size": 5695744
+            "size": 5699644
         }
     ]
 }
