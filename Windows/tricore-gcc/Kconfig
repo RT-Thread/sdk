@@ -1,0 +1,26 @@
+# Kconfig file for package tricore-gcc
+menuconfig PKG_USING_TRICORE_GCC
+    bool "tricore-gcc toolchain"
+    default n
+
+if PKG_USING_TRICORE_GCC
+
+    config PKG_TRICORE_GCC_PATH
+        string
+        default "sdk/Windows/tricore-gcc"
+
+    choice
+        prompt "Version"
+        help
+            Select the package version
+
+        config PKG_USING_TRICORE_GCC_V1341
+            bool "v13.4.1"
+
+    endchoice
+
+    config PKG_TRICORE_GCC_VER
+       string
+       default "v13.4.1" if PKG_USING_TRICORE_GCC_V1341
+
+endif
