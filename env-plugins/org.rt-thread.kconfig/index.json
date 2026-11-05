@@ -1,0 +1,29 @@
+{
+    "id": "org.rt-thread.kconfig",
+    "name": "RT-Kconfig 配置器",
+    "description": "Configure RT-Thread in the Env WebUI",
+    "capabilities": ["commands", "service", "webui"],
+    "status": "published",
+    "versions": [
+        {
+            "version": "0.1.34",
+            "status": "published",
+            "artifacts": [
+                {
+                    "filename": "org.rt-thread.kconfig-0.1.34-py3-none-any.epack",
+                    "url": "https://github.com/RT-Thread/sdk/releases/download/env-plugin-kconfig-v0.1.34/org.rt-thread.kconfig-0.1.34-py3-none-any.epack",
+                    "sha256": "ab7068a7745221a8466a584566286b6ad60ebf746a9159de9348976897c39537",
+                    "size_bytes": 379605,
+                    "compatibility": {
+                        "env": ">=2.0.2,<3.0.0",
+                        "python": ">=3.6.0,<4.0.0",
+                        "implementations": ["cpython"],
+                        "abis": ["py3"],
+                        "platforms": ["any"],
+                        "architectures": ["any"]
+                    }
+                }
+            ]
+        }
+    ]
+}
