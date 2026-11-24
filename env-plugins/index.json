@@ -2,5 +2,5 @@
     "name": "Env Plugin Index",
     "version": 1,
     "description": "Serverless RT-Thread Env plugin catalog",
-    "index": ["org.rt-thread.kconfig"]
+    "index": ["org.rt-thread.kconfig", "org.rt-thread.env-pilot"]
 }
