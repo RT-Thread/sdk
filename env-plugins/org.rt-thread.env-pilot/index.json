@@ -1,0 +1,29 @@
+{
+    "id": "org.rt-thread.env-pilot",
+    "name": "Env Pilot",
+    "description": "Local Claude Code orchestration and execution workbench for Windows and Linux",
+    "capabilities": ["commands", "service", "webui"],
+    "status": "published",
+    "versions": [
+        {
+            "version": "0.1.2",
+            "status": "published",
+            "artifacts": [
+                {
+                    "filename": "org.rt-thread.env-pilot-0.1.2-py3-none-any.epack",
+                    "url": "https://github.com/RT-Thread/sdk/releases/download/env-plugin-env-pilot-v0.1.2/org.rt-thread.env-pilot-0.1.2-py3-none-any.epack",
+                    "sha256": "7b8cd7f67da5620a97d4ce379d087239c6ef636a97255aeef68f3ddf4af548b0",
+                    "size_bytes": 1551793,
+                    "compatibility": {
+                        "env": ">=2.0.2,<3.0.0",
+                        "python": ">=3.7.0,<4.0.0",
+                        "implementations": ["cpython"],
+                        "abis": ["py3"],
+                        "platforms": ["any"],
+                        "architectures": ["any"]
+                    }
+                }
+            ]
+        }
+    ]
+}
