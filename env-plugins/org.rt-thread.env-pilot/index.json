@@ -6,6 +6,26 @@
     "status": "published",
     "versions": [
         {
+            "version": "0.1.3",
+            "status": "published",
+            "artifacts": [
+                {
+                    "filename": "org.rt-thread.env-pilot-0.1.3-py3-none-any.epack",
+                    "url": "https://github.com/RT-Thread/sdk/releases/download/env-plugin-env-pilot-v0.1.3/org.rt-thread.env-pilot-0.1.3-py3-none-any.epack",
+                    "sha256": "6844346bc1a0373d1f2871b33be4bd6f5d00189f8d2c6ba91b7a17d65d2cd8a4",
+                    "size_bytes": 1605395,
+                    "compatibility": {
+                        "env": ">=2.0.2,<3.0.0",
+                        "python": ">=3.7.0,<4.0.0",
+                        "implementations": ["cpython"],
+                        "abis": ["py3"],
+                        "platforms": ["any"],
+                        "architectures": ["any"]
+                    }
+                }
+            ]
+        },
+        {
             "version": "0.1.2",
             "status": "published",
             "artifacts": [

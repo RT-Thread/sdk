@@ -23,7 +23,7 @@ env-plugins/
 
 `index` 的每个字符串是本目录下的直接子目录名称，每个子目录必须包含 `index.json`。不支持绝对路径、`..`、路径分隔符和指向目录外的符号链接。
 
-当前收录 `org.rt-thread.kconfig`（RT-Kconfig 配置器）0.1.34 与 `org.rt-thread.env-pilot`（Env Pilot）0.1.2；索引中的下载记录对应本仓库 GitHub Release 的真实 `.epack` 资产，不包含占位下载记录。
+当前收录 `org.rt-thread.kconfig`（RT-Kconfig 配置器）0.1.34 与 `org.rt-thread.env-pilot`（Env Pilot）0.1.3；索引中的下载记录对应本仓库 GitHub Release 的真实 `.epack` 资产，不包含占位下载记录。
 
 ## 插件记录
 
